@@ -6,7 +6,7 @@ function Get-MHServiceWMI {
 .DESCRIPTION
    This function retrieves Service information from WMI on the local computer by default or remote computer if specified.  The information returned is:
    -System Name: Name of Computer
-   -Service Name: Display Name
+   -Service Name: Display Name of the service
    -Start Mode: Automatic/Manual/Disabled/Delayed Start
    -State: Current running state
    -Start Name: The account that started the service
